@@ -126,11 +126,10 @@ function MergeComponents() {
           border='2px solid #d3d3d9'
         />
         <p style={{ textAlign: 'left', color: 'grey', fontSize: '0.8rem', fontWeight: '500' }}>
-          Separate by ',' or '='
+          Separate by ',' or ' ' or '='
         </p>
       </div>
 
-      {/* Conditionally render the "Keep the first one" and "Combine Balance" buttons */}
       {hasDuplicates && (
         <div className="row">
           <div className="col text-left" style={{ color: "red", textAlign: "left" }}>
